@@ -6,7 +6,7 @@ top
 使用前你需要做什么
 =================
 
-改库实现使用了[requests](https://pypi.python.org/pypi/requests)库，如果需要使用urllilb2等实现请求，请自行实现
+该库实现使用了[requests](https://pypi.python.org/pypi/requests)库，如果需要使用urllilb2等实现请求，请自行实现
 
 使用范例
 =======
