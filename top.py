@@ -22,7 +22,7 @@ def get_top_sold_trades(session):
                      cod_status,shipping_type,receiver_name,receiver_state,receiver_city,\
                      receiver_district,receiver_address,receiver_zip,receiver_mobile,\
                      receiver_phone'
-    req['status'] = 'TRADE_FINISHED'
+    
     client = TopClient()
     response = client.execute(req, session)
     return response.json()
