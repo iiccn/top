@@ -20,6 +20,7 @@ def _now_timestamp():
     return datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 class AbstractClient:
+ 
     def __init__(self, **app_settings):
         self.sys_params = {  
             'app_key' : _AppKey,  
@@ -39,7 +40,6 @@ class AbstractClient:
 
 class ClientMinix:
     
-
     def sign(self, params) :  
         items = params.items()  
         items.sort()  
@@ -100,7 +100,6 @@ class TopClient(AbstractClient, ClientMinix):
         return self.response
 
     
-
 class TopRequest:  
     def __init__(self, method_name):  
         self.method_name = method_name  
