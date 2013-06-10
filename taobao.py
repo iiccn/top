@@ -72,6 +72,7 @@ class ClientMinix:
 
 
 class TopClient(AbstractClient, ClientMinix):
+ 
     def __init__(self, **app_settings):
         AbstractClient.__init__(self, **app_settings)
 
@@ -101,6 +102,7 @@ class TopClient(AbstractClient, ClientMinix):
 
     
 class TopRequest:  
+ 
     def __init__(self, method_name):  
         self.method_name = method_name  
         self.api_params = {}  
