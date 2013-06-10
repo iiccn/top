@@ -36,5 +36,5 @@ top
 更多例子
 =====
 
-参考淘宝AIP接口和[top.py](https://github.com/thomashuang/top/blob/master/top.py)
+参考淘宝API接口和[top.py](https://github.com/thomashuang/top/blob/master/top.py)
 
