@@ -11,10 +11,10 @@ top
 使用范例
 =======
 
-<code>
-from top import TopRequest
 
-req = TopRequest()
+    from top import TopRequest
+
+    req = TopRequest()
     req['fields'] = 'seller_nick,buyer_nick,title,type,created,tid,seller_rate,buyer_rate,\
                      status,payment,adjust_fee,post_fee,total_fee,pay_time,end_time,\
                      modified,consign_time,buyer_obtain_point_fee,real_point_fee,\
@@ -31,7 +31,7 @@ req = TopRequest()
     client = TopClient()
     response = client.execute(
         req, session="62007306f38614dbf4a11b3d56f1ccff87c350ZZ96d0782670923820")
-</code>
+
 
 更多例子
 =====
