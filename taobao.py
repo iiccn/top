@@ -4,13 +4,12 @@
 import requests
 import datetime
 import hashlib
-
+from top_setting import top
  
 
-
-_AppKey     = 'test'  
-_AppSecret  = 'test'  
-_Gateway    = 'http://gw.api.tbsandbox.com/router/rest' 
+_AppKey = top['app_key']
+_AppSecret = top['app_secret']
+_Gateway = top['gateway']
 
 _Format     = top['format']  
 _SignMethod = top['sign_method'] 
