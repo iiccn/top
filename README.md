@@ -7,7 +7,7 @@ top
 =================
 
 该库实现使用了[requests](https://pypi.python.org/pypi/requests)库，如果需要使用urllilb2等实现请求，请自行实现
-需要配置taobao.py应用参数
+需要配置top_setting.py内应用参数
 
 使用范例
 =======
